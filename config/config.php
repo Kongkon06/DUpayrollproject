@@ -12,4 +12,4 @@ define('AUTH_SALT', 'your_random_salt_here');
 define('SESSION_TIMEOUT', 1800); // 30 minutes
 
 // Pagination
-define('ITEMS_PER_PAGE', 10);
+define('ITEMS_PER_PAGE', 20);

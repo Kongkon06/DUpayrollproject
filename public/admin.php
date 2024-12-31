@@ -6,15 +6,35 @@
     <title>Add Data</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 p-8">
-<div class="flex justify-center">
-<ul class="flex text-xl gap-10 p-4 text-slate-950">
-              <li><a href="admin.php">Add data</a></li>
-              <li><a href="index.php">Empoylee table</a></li>
-              <li><a href="edit.php">Admin Page</a></li>
-              <li><a href="report.php">Payroll</a></li>
-          </ul>
-</div>
+<body class="bg-gray-100 ">
+<nav class="bg-white shadow-lg">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-center">
+            <ul class="flex items-center space-x-8 py-4">
+                <li>
+                    <a href="admin.php" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-lg font-medium transition duration-300 ease-in-out">
+                        Add Data
+                    </a>
+                </li>
+                <li>
+                    <a href="index.php" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-lg font-medium transition duration-300 ease-in-out">
+                        Employee Table
+                    </a>
+                </li>
+                <li>
+                    <a href="edit.php" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-lg font-medium transition duration-300 ease-in-out">
+                        Admin Page
+                    </a>
+                </li>
+                <li>
+                    <a href="report.php" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-lg font-medium transition duration-300 ease-in-out">
+                        Payroll
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <div class="flex mt-4 justify-center items-center gap-10">
         <label for="column">How many entries do you want to add?</label>
         <input id="column" name="column" class="p-2 border-2 border-gray-300" type="number" placeholder="0" min="1" required />

@@ -26,6 +26,9 @@ class Database {
         $this->createTables();
     }
 
+    public function prepare($sql) {
+        return $this->connection->prepare($sql);
+    }
     private function createTables() {
         $queries = [
             // Employee Profile Table
